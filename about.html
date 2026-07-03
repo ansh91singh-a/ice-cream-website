@@ -1,0 +1,90 @@
+  {% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Us{% endblock %}
+
+{% block body %}
+
+<!-- Banner -->
+<div class="container-fluid" style="padding:0;">
+    <img src="https://loremflickr.com/1400/400/icecream"
+     class="card-img-top">
+</div>
+
+<!-- About Section -->
+<div class="container" style="margin-top:50px; margin-bottom:50px;">
+    <div class="row">
+
+        <div class="col-md-6">
+           <img
+          src="https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGljZSUyMGNyZWFtfGVufDB8fDB8fHww"
+          class="d-block w-100"
+          width="1600"
+          height="400"
+          alt="..."
+        />
+                 
+        </div>
+
+        <div class="col-md-6">
+            <h2 style="font-weight:bold;">About Our Ice Cream</h2>
+            <hr>
+
+            <p style="font-size:17px; line-height:30px; text-align:justify;">
+                Welcome to <b>Ice Cream World</b>, where every scoop is made with
+                love and premium-quality ingredients. Our mission is to bring
+                happiness through delicious and creamy ice creams.
+            </p>
+
+            <p style="font-size:17px; line-height:30px; text-align:justify;">
+                We offer a wide variety of flavors including Chocolate, Vanilla,
+                Strawberry, Mango, Blueberry, Butterscotch, Blackcurrant and many
+                more. Every product is prepared with freshness and care.
+            </p>
+
+            <p style="font-size:17px; line-height:30px; text-align:justify;">
+                Whether you're celebrating a birthday, enjoying time with family,
+                or simply craving a sweet treat, we're here to make every moment
+                more delicious.
+            </p>
+
+            <a href="/contact" class="btn btn-primary btn-lg">
+                Contact Us
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Features -->
+<div class="container text-center" style="margin-bottom:60px;">
+
+    <h2>Why Choose Us?</h2>
+    <br>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <span style="font-size:50px;">🍦</span>
+            <h3>Fresh Ice Cream</h3>
+            <p>Made with fresh and premium ingredients.</p>
+        </div>
+
+        <div class="col-md-4">
+            <span style="font-size:50px;">🚚</span>
+            <h3>Fast Delivery</h3>
+            <p>Quick delivery to your doorstep.</p>
+        </div>
+
+        <div class="col-md-4">
+            <span style="font-size:50px;">😊</span>
+            <h3>Happy Customers</h3>
+            <p>Thousands of satisfied customers love our flavors.</p>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
