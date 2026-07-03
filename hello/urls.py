@@ -18,8 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 
-admin.site.site_header = "Ansh Icecream Admin"
-admin.site.site_title = "Ansh Icecream Admin Portal"
+admin.site.site_header = "🍦Ansh Icecream Admin"
+admin.site.site_title = "🍦Ansh Icecream Admin Portal"
 admin.site.index_title = "Welcome to CreamBell Icecream"
 urlpatterns = [
     path('admin/', admin.site.urls),

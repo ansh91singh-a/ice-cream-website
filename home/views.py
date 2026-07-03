@@ -20,3 +20,14 @@ def services(request):
 def contact(request):
      return render(request,'contact.html')
     #return HttpResponse("this is Contactpage")
+
+def party_order(request):
+    return render(request, 'party_order.html')
+
+def family_pack(request):
+    return render(request, 'family_pack.html')
+
+def bulk_order(request):
+    return render(request, 'bulk_order.html')
+
+
